@@ -1,0 +1,21 @@
+!!!5
+html
+  head
+    title #{title} - My Site
+    
+    link(rel='stylesheet', href='/stylesheets/normalize.css')
+    link(rel='stylesheet', href='/stylesheets/foundation.css')
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+    script(type='text/javascript',src='js/vendor/custom.modernizr.js')
+
+
+  body
+
+    include includes/header
+
+    block content
+
+    include includes/footer
+
+    script(type='text/javascript',src='js/analytics.js')
